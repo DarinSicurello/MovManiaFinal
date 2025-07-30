@@ -1,0 +1,57 @@
+{
+  "movies": [
+    {
+      "id": "b57f",
+      "title": "People v. The State of Illusion",
+      "type": "movie",
+      "year": "2012",
+      "plot": "A compelling docudrama that explores the science and power of perception and imagination through the most important trial you will ever witness."
+    },
+    {
+      "id": "35f4",
+      "title": "Beneath the Valley of the Ultra-Vixens",
+      "type": "movie",
+      "year": "1979",
+      "plot": "Believe it or not, even Smalltown USA still has people who are unfulfilled and unrelieved in the midst of plenty. Levonna and Lamar could have the perfect relationship, were it not for Lamar's obsession with rear entry."
+    },
+    {
+      "id": "9796",
+      "title": "The Queen of Versailles",
+      "type": "movie",
+      "year": "2012",
+      "plot": "A documentary that follows a billionaire couple as they begin construction on a mansion inspired by Versailles. During the next two years, their empire, fueled by the real estate bubble and cheap money, falters due to the economic..."
+    },
+    {
+      "id": "87fa",
+      "title": "Mystery Men",
+      "type": "movie",
+      "year": "1999",
+      "plot": "A group of inept amateur superheroes must try to save the day when a supervillain threatens to destroy a major superhero and the city."
+    },
+    {
+      "id": "cefb",
+      "title": "Sci Fi Inside: 'the Triangle'",
+      "type": "movie",
+      "year": "2005",
+      "plot": "Billionaire Eric Benirall hires a team of experts to find out why six of his ships have disappeared in the Bermuda Triangle."
+    },
+    {
+      "id": "64d0",
+      "title": "One Day",
+      "type": "movie",
+      "year": "2011",
+      "plot": "After spending the night together on the eve of their college graduation, Dexter and Emma are shown each year on the same date to see where they are in their lives. They are sometimes together, and sometimes not."
+    },
+    {
+      "id": "251d",
+      "title": "Star Wars: Episode VIII - The Last Jedi",
+      "type": "movie",
+      "year": "2017",
+      "plot": "Rey develops her abilities with the help of Luke Skywalker as the Resistance prepares for battle against the First Order."
+    },
+    {
+      "id": "efd6",
+      "title": "die hard "
+    }
+  ]
+}

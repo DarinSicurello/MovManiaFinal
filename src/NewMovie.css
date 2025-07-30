@@ -1,0 +1,63 @@
+/* NewMovie.css */
+
+.right-section {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.right-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #222;
+  text-align: center;
+}
+
+.movie-container-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.movie-generator-container-A,
+.movie-generator-container-B,
+.movie-generator-container-C,
+.movie-generator-container-D,
+.movie-generator-container-E {
+  width: 150px;      /* Width for portrait poster */
+  height: 250px;     /* Height for portrait poster */
+  background-color: #f0f0f0;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie-generator-container-A img,
+.movie-generator-container-B img,
+.movie-generator-container-C img,
+.movie-generator-container-D img,
+.movie-generator-container-E img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+
+.movie-generator-container-A:hover,
+.movie-generator-container-B:hover,
+.movie-generator-container-C:hover,
+.movie-generator-container-D:hover,
+.movie-generator-container-E:hover {
+  transform: scale(1.05);
+  border-color: #007bff;
+  box-shadow: 0 4px 12px rgb(0 123 255 / 0.5);
+}

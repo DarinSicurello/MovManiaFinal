@@ -1,0 +1,72 @@
+
+
+.profiles-page-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.profiles-page-container .main-con {
+  display: flex;
+  gap: 20px;
+}
+
+.profiles-page-container .left-section {
+  flex: 0 0 200px;
+}
+
+.profiles-page-container .left-section h2 {
+  margin-bottom: 1rem;
+}
+
+.profiles-page-container .nav-link {
+  color: #0d6efd; /* Bootstrap primary */
+  text-decoration: none;
+}
+
+.profiles-page-container .nav-link:hover {
+  text-decoration: underline;
+}
+
+.profiles-page-container .btn-primary {
+  width: 100%;
+}
+
+.profiles-page-container .right-section {
+  flex-grow: 1;
+}
+
+.profiles-page-container input.form-control,
+.profiles-page-container textarea.form-control {
+  margin-bottom: 0.75rem;
+}
+
+.profiles-page-container button {
+  margin-top: 0.5rem;
+}
+
+/* ProfilesPage.css */
+.profiles-page-wrapper {
+  padding: 20px;
+}
+
+/* Flex container for left + right sections */
+.main-con {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Left menu area */
+.left-section {
+  width: 250px;
+}
+
+/* Right content area */
+.right-section {
+  flex-grow: 1;
+  min-width: 0; /* Prevents overflow */
+}
+

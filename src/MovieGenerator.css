@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.movie-generator-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.movie-generator-container button {
+  /* button specific styles */
+}
+
+/* Create three equal columns that sit next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+/* IN MovieGenerator.css */
+.movie-generator-container h2 {
+  text-align: center;
+}
+
+.movie-generator-container button {
+  margin-top: 1rem;
+}
+
+/* New styles added below */
+
+/* Main container: puts left and right sections side-by-side */
+.main-con {
+  display: flex;
+  min-height: 100vh; /* optional: makes it full height */
+}
+
+.left-section {
+  width: 250px;
+  padding: 20px;
+  background-color: #f9f9f9; /* optional: gives sidebar a distinct color */
+  border-right: 1px solid #ddd;
+}
+
+.right-section {
+  flex: 1; /* takes remaining space */
+  padding: 40px; /* more spacing */
+  background-color: #ffffff; /* optional: separate background */
+}
+
+/* Container row for horizontal layout */
+.movie-container-row {
+  display: flex;
+  gap: 16px;
+}
+
+.movie-generator-container-A,
+.movie-generator-container-B,
+.movie-generator-container-C,
+.movie-generator-container-D,
+.movie-generator-container-E {
+  width: 150px;
+  height: 250px;
+  background-color: #f0f0f0;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+
+
+
+
+
+

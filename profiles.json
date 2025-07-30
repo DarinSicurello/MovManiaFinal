@@ -1,0 +1,67 @@
+{
+  "profiles": [
+    {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "title": "Frontend Developer",
+      "titleDescription": "Building clean, user-friendly interfaces with React.",
+      "bio": "Jane is a software engineer with 5+ years experience...",
+      "avatarUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/20161127/rs_600x600-161227105154-600-carrie-fisher-princess-leia.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+      "id": "1"
+    },
+    {
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "title": "Backend Developer",
+      "titleDescription": "Specializes in scalable APIs and database design.",
+      "bio": "John is an expert in Node.js and cloud architecture...",
+      "avatarUrl": "https://i.guim.co.uk/img/media/3237b8d82452ddf4e0330a04d65123c89df2ea3e/0_3027_5404_3243/master/5404.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=947307d06c59914c88bb9b53bd7506c8",
+      "id": "2"
+    },
+    {
+      "name": "John Doe",
+      "email": "jondoe@aol.com",
+      "title": "Supervisors",
+      "titleDescription": "Does Nothing ",
+      "bio": "Nothing ",
+      "avatarUrl": "https://www.cheatsheet.com/wp-content/uploads/2020/08/George-Costanza-scaled.jpg",
+      "id": "db2b"
+    },
+    {
+      "name": "Darin Sicurello",
+      "email": "darin.sicurello@gmail.com",
+      "title": "Wed Developer",
+      "titleDescription": "Surfer",
+      "bio": "Surf or Fight!",
+      "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrytG_4udHWiofpbRSCS_QnbQdiBKUjfDZ0Q&s",
+      "id": "08af"
+    },
+    {
+      "id": "6216",
+      "name": "Johnny Rotten",
+      "email": "sexpistols@aol.com",
+      "title": "bugger",
+      "titleDescription": "music",
+      "bio": "band memeber",
+      "avatarUrl": "https://www.nndb.com/people/479/000024407/rotten.jpg"
+    },
+    {
+      "name": "Kramer",
+      "email": "nothing@aol.com",
+      "title": "unemployer",
+      "titleDescription": "Game Show Host",
+      "bio": "New York Native. like to eat. talk and make deals. ",
+      "avatarUrl": "https://static.wikia.nocookie.net/omegaseries/images/4/43/Kramer_120753a.jpg",
+      "id": "f228"
+    },
+    {
+      "id": "9b82",
+      "name": "Charlie Day ",
+      "email": "phillyshxtpants@aol.com",
+      "title": "Mr. Dayo",
+      "titleDescription": "janitor",
+      "bio": "Irish dive bar Paddy's Pub",
+      "avatarUrl": "https://aumiekjrpq.cloudimg.io/v7/_intoprodweb_/uploads/2024/10/charlie-day-meme.png?auto=format&auto=compress&fit=crop&gravity=smart&w=300&h=300"
+    }
+  ]
+}

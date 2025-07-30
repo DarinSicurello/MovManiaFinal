@@ -1,0 +1,49 @@
+.profile-detail {
+  padding: 1rem;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.avatar-container {
+  margin: 1rem auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-fallback {
+  font-size: 2rem;
+  color: #555;
+  font-weight: bold;
+}
+.profiles-page-wrapper {
+  padding: 20px;
+}
+
+.main-con {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.left-section {
+  width: 250px;
+  min-width: 200px;
+}
+
+.right-section {
+  flex-grow: 1;
+  min-width: 0; 
+}
