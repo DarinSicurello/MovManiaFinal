@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './NewMovie.css';
 
-const MOVIE_API_KEY = '40e24f0d'; // Your OMDb API key UPDATED limited to 1,000 per day
+const MOVIE_API_KEY = '4eaba85f'; // Your OMDb API key UPDATED limited to 1,000 per day
 
 //Copy Keywprds from movie Gnerator
 const curatedKeywords = [

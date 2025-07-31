@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './MovieGenerator.css';
 
-const MOVIE_API_KEY = '40e24f0d'; // Your OMDb API key UPDATED from separate JS file
+const MOVIE_API_KEY = '4eaba85f'; // Your OMDb API key UPDATED from separate JS file
 
 // Loader Spinner Component as there is delay
 const Loader = () => (
